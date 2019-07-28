@@ -55,7 +55,7 @@ Each broker can have :
 <p> In such scenario, we would like to set up a concentrator topology as shown below. </p>
 
 <a href="/assets/images/{{page.id}}/brokernetworkconcentrator.png">
-<img class="center-block img-responsive" src="/assets/images/{{page.id}}/brokernetworkconcentrator.png" alt="network of brokers concentrator topology"/></a>
+<img class="center-block img-responsive" src="assets/images/{{page.id}}/brokernetworkconcentrator.png" alt="network of brokers concentrator topology"/></a>
 <p>
 This topology allows us to setup stable and controlled connections between the brokers of layer 1 towards layer 2. The central brokers do not have to deal with sensors connecting and disconnecting.
 
@@ -112,7 +112,7 @@ The strategy we can apply to shut down a broker (named c01 in this example) prop
 </ul>
 
 <a href="/assets/images/{{page.id}}/scaledown.png">
-<img class="center-block img-responsive" src="/assets/images/{{page.id}}/scaledown.png" alt="scale down a network of brokers"/></a>
+<img class="center-block img-responsive" src="assets/images/{{page.id}}/scaledown.png" alt="scale down a network of brokers"/></a>
 <p>
 There might be situations where this procedure is not enough. Messages may remain when no active consumers for those exist anywhere in the network. In this case, I recommend you to look at Josh Reagan's blog post:
 
@@ -131,7 +131,7 @@ To have a deeper understanding you can refer to the following documentation :
 <h3>Message hopping on layer 2 to avoid slow consumers</h3>
 
 <a href="/assets/images/{{page.id}}/distributeload.png">
-<img class="center-block img-responsive" src="/assets/images/{{page.id}}/distributeload.png" alt="distributed load in network of brokers"/></a>
+<img class="center-block img-responsive" src="assets/images/{{page.id}}/distributeload.png" alt="distributed load in network of brokers"/></a>
 
 If you run the tests that are provided in the sample code (see below). You might notice that sometimes a message that reaches a broker in layer 2 is forwarded to its neighbor on layer 2 instead of being consumed by the local client.
 
@@ -165,7 +165,7 @@ This project populates 3 AMQ instances configured as a netwok of brokers simila
 
 
 <a href="/assets/images/{{page.id}}/examplenetworkconfig.png">
-<img class="center-block img-responsive" src="/assets/images/{{page.id}}/examplenetworkconfig.png" alt="example of amq network of brokers configuration"/></a>
+<img class="center-block img-responsive" src="assets/images/{{page.id}}/examplenetworkconfig.png" alt="example of amq network of brokers configuration"/></a>
 
 
 <ul>
