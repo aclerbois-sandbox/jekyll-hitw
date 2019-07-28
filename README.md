@@ -7,6 +7,6 @@
 
 ## Deployments 
 
-[![Deployemnt prepord status](https://vsrm.dev.azure.com/aclerbois-sandbox/_apis/public/Release/badge/f0899627-3560-4cab-ade8-652992731dfb/1/1)]
+Pré Production : [![Deployemnt prepord status](https://vsrm.dev.azure.com/aclerbois-sandbox/_apis/public/Release/badge/f0899627-3560-4cab-ade8-652992731dfb/1/1)]()
 
-[![Deployemnt pord status](https://vsrm.dev.azure.com/aclerbois-sandbox/_apis/public/Release/badge/f0899627-3560-4cab-ade8-652992731dfb/1/2)]
+Production : [![Deployemnt pord status](https://vsrm.dev.azure.com/aclerbois-sandbox/_apis/public/Release/badge/f0899627-3560-4cab-ade8-652992731dfb/1/2)]()
